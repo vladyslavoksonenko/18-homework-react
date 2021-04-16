@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/18-HomeWork-React/static/css/main.9ee36b18.chunk.css",
-    "main.js": "/18-HomeWork-React/static/js/main.8b65403d.chunk.js",
-    "main.js.map": "/18-HomeWork-React/static/js/main.8b65403d.chunk.js.map",
-    "runtime-main.js": "/18-HomeWork-React/static/js/runtime-main.2e5e9e01.js",
-    "runtime-main.js.map": "/18-HomeWork-React/static/js/runtime-main.2e5e9e01.js.map",
-    "static/js/2.e82b9cbe.chunk.js": "/18-HomeWork-React/static/js/2.e82b9cbe.chunk.js",
-    "static/js/2.e82b9cbe.chunk.js.map": "/18-HomeWork-React/static/js/2.e82b9cbe.chunk.js.map",
-    "static/js/3.7d200057.chunk.js": "/18-HomeWork-React/static/js/3.7d200057.chunk.js",
-    "static/js/3.7d200057.chunk.js.map": "/18-HomeWork-React/static/js/3.7d200057.chunk.js.map",
-    "index.html": "/18-HomeWork-React/index.html",
-    "static/css/main.9ee36b18.chunk.css.map": "/18-HomeWork-React/static/css/main.9ee36b18.chunk.css.map",
-    "static/js/2.e82b9cbe.chunk.js.LICENSE.txt": "/18-HomeWork-React/static/js/2.e82b9cbe.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/18-HomeWork-React/static/media/fa-solid-900.efbd5d20.eot"
+    "main.css": "/18-homework-react/static/css/main.c6d561ff.chunk.css",
+    "main.js": "/18-homework-react/static/js/main.8b65403d.chunk.js",
+    "main.js.map": "/18-homework-react/static/js/main.8b65403d.chunk.js.map",
+    "runtime-main.js": "/18-homework-react/static/js/runtime-main.081cd69e.js",
+    "runtime-main.js.map": "/18-homework-react/static/js/runtime-main.081cd69e.js.map",
+    "static/js/2.e82b9cbe.chunk.js": "/18-homework-react/static/js/2.e82b9cbe.chunk.js",
+    "static/js/2.e82b9cbe.chunk.js.map": "/18-homework-react/static/js/2.e82b9cbe.chunk.js.map",
+    "static/js/3.7d200057.chunk.js": "/18-homework-react/static/js/3.7d200057.chunk.js",
+    "static/js/3.7d200057.chunk.js.map": "/18-homework-react/static/js/3.7d200057.chunk.js.map",
+    "index.html": "/18-homework-react/index.html",
+    "static/css/main.c6d561ff.chunk.css.map": "/18-homework-react/static/css/main.c6d561ff.chunk.css.map",
+    "static/js/2.e82b9cbe.chunk.js.LICENSE.txt": "/18-homework-react/static/js/2.e82b9cbe.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/18-homework-react/static/media/fa-solid-900.efbd5d20.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e5e9e01.js",
+    "static/js/runtime-main.081cd69e.js",
     "static/js/2.e82b9cbe.chunk.js",
-    "static/css/main.9ee36b18.chunk.css",
+    "static/css/main.c6d561ff.chunk.css",
     "static/js/main.8b65403d.chunk.js"
   ]
 }
