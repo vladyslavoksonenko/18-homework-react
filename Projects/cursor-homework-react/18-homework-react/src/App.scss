@@ -1,0 +1,114 @@
+
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+
+.App {
+  font-family: 'Courier New', Courier, monospace;
+}
+.contact {
+  width: 360px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px 4px rgba(0, 0, 0, 0.24);
+}
+
+.header {
+  background: #5580a3;
+  // padding: 0 0 28px 26px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 13px;
+
+
+  &__button {
+    margin-left: 23px;
+    background: #fff0;
+    border: none;
+    color: #ffffffdb;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    color: #fff;
+  }
+  &__button:focus {
+    outline: none;
+  }
+  
+}
+
+.search {
+  padding: 17px;
+  background: #fff;
+  border-bottom: 1px solid #bbbbbbdb;
+  display: flex;
+  margin-bottom: 6px;
+
+  &__input {
+    width: 100%;
+    border: none;
+  }
+  &__input:focus {
+    outline: none;
+  }
+}
+.search::before {
+  content: fa-content($fa-var-user);
+}
+
+.footer-button {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 13px 0;
+  text-align: center;
+  &__input {
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#4680b3;
+    padding: 8px 8px;
+    cursor: pointer;
+  }
+  &__input:hover {
+    background: #f2f6fa;
+  }
+  &__input:focus {
+    outline: none;
+  }
+}
+
+.contact-people {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+  cursor: pointer;
+
+  &__name {
+    font-weight: bold;
+  }
+  &__description {
+    display: flex;
+    margin-left: 12px;
+  }
+  &__gender::before {
+    content: ".";
+    position: relative;
+    top: -2px;
+    padding: 0px 12px;
+  }
+}
+.contact-people:hover {
+  background: #f2f6fa;
+}
