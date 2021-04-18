@@ -1,7 +1,7 @@
 
-@import "./fontawesome/scss/fontawesome.scss";
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
+// @import "./fontawesome/scss/fontawesome.scss";
+// @import "./fontawesome/scss/solid.scss";
+// @import "./fontawesome/scss/brands.scss";
 
 .App {
   font-family: 'Courier New', Courier, monospace;
@@ -61,7 +61,7 @@
   }
 }
 .search::before {
-  content: fa-content($fa-var-user);
+  content: " ";
 }
 
 .footer-button {
@@ -111,4 +111,9 @@
 }
 .contact-people:hover {
   background: #f2f6fa;
+}
+
+.main {
+  overflow: scroll;
+  height: 430px;
 }
