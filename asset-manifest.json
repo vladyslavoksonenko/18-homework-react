@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/18-homework-react/static/css/main.c6d561ff.chunk.css",
-    "main.js": "/18-homework-react/static/js/main.8b65403d.chunk.js",
-    "main.js.map": "/18-homework-react/static/js/main.8b65403d.chunk.js.map",
-    "runtime-main.js": "/18-homework-react/static/js/runtime-main.081cd69e.js",
-    "runtime-main.js.map": "/18-homework-react/static/js/runtime-main.081cd69e.js.map",
-    "static/js/2.e82b9cbe.chunk.js": "/18-homework-react/static/js/2.e82b9cbe.chunk.js",
-    "static/js/2.e82b9cbe.chunk.js.map": "/18-homework-react/static/js/2.e82b9cbe.chunk.js.map",
-    "static/js/3.7d200057.chunk.js": "/18-homework-react/static/js/3.7d200057.chunk.js",
-    "static/js/3.7d200057.chunk.js.map": "/18-homework-react/static/js/3.7d200057.chunk.js.map",
+    "main.css": "/18-homework-react/static/css/main.c175e2c5.chunk.css",
+    "main.js": "/18-homework-react/static/js/main.e7959807.chunk.js",
+    "main.js.map": "/18-homework-react/static/js/main.e7959807.chunk.js.map",
+    "runtime-main.js": "/18-homework-react/static/js/runtime-main.4954c57d.js",
+    "runtime-main.js.map": "/18-homework-react/static/js/runtime-main.4954c57d.js.map",
+    "static/js/2.b0971dcc.chunk.js": "/18-homework-react/static/js/2.b0971dcc.chunk.js",
+    "static/js/2.b0971dcc.chunk.js.map": "/18-homework-react/static/js/2.b0971dcc.chunk.js.map",
+    "static/js/3.569aff68.chunk.js": "/18-homework-react/static/js/3.569aff68.chunk.js",
+    "static/js/3.569aff68.chunk.js.map": "/18-homework-react/static/js/3.569aff68.chunk.js.map",
     "index.html": "/18-homework-react/index.html",
-    "static/css/main.c6d561ff.chunk.css.map": "/18-homework-react/static/css/main.c6d561ff.chunk.css.map",
-    "static/js/2.e82b9cbe.chunk.js.LICENSE.txt": "/18-homework-react/static/js/2.e82b9cbe.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/18-homework-react/static/media/fa-solid-900.efbd5d20.eot"
+    "static/css/main.c175e2c5.chunk.css.map": "/18-homework-react/static/css/main.c175e2c5.chunk.css.map",
+    "static/js/2.b0971dcc.chunk.js.LICENSE.txt": "/18-homework-react/static/js/2.b0971dcc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.081cd69e.js",
-    "static/js/2.e82b9cbe.chunk.js",
-    "static/css/main.c6d561ff.chunk.css",
-    "static/js/main.8b65403d.chunk.js"
+    "static/js/runtime-main.4954c57d.js",
+    "static/js/2.b0971dcc.chunk.js",
+    "static/css/main.c175e2c5.chunk.css",
+    "static/js/main.e7959807.chunk.js"
   ]
 }
