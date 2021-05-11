@@ -32,15 +32,12 @@ let contacts = [{
   gender: "male"
 }];
 
-
-
-
 class Contacts extends React.Component {
   
-    state = {
-      contacts: contacts, 
-      search: " "
-    };    
+  state = {
+    contacts: contacts, 
+    search: " "
+  };    
 
   handleSearchChange = (e) => {
     const inputValue = e.target.value.toLowerCase();
