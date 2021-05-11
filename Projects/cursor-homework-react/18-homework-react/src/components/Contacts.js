@@ -36,7 +36,7 @@ class Contacts extends React.Component {
   
   state = {
     contacts: contacts, 
-    search: " "
+    search: ""
   };    
 
   handleSearchChange = (e) => {
