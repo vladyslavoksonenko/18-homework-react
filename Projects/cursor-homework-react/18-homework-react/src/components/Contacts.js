@@ -45,8 +45,8 @@ class Contacts extends React.Component {
       search: e.target.value,
       contacts: contacts.filter((contact) => {
         for (const key in contact) {
-        const result = contact[key].toLowerCase().indexOf(inputValue)
-          if (result === 0) {
+        const result = contact[key].toLowerCase().includes(inputValue)
+          if (result === true) {
             return contact;
           }
         }
@@ -62,12 +62,26 @@ class Contacts extends React.Component {
             Contacts
           </div>
           <div className="header__buttons">
-            <input className="header__button" type="button" value="Edit" onClick={function () { alert("Edit"); }}/>
-            <input className="header__button" type="button" value="Close" onClick={function () { alert("Close"); }}/>
+            <input 
+              className="header__button" 
+              type="button" value="Edit" 
+              onClick={function () { alert("Edit"); }}
+            />
+            <input 
+              className="header__button" 
+              type="button" value="Close" 
+              onClick={function () { alert("Close"); }}
+            />
           </div>
         </div>
         <div className="search">
-          <input type="search" placeholder="Search" className="search__input" value={this.state.search} onChange={this.handleSearchChange} />
+          <input 
+            type="search" 
+            placeholder="Search" 
+            className="search__input" 
+            value={this.state.search} 
+            onChange={this.handleSearchChange} 
+          />
         </div>
         <div className="main"> 
           { this.state.contacts.map(contact => {
@@ -75,7 +89,11 @@ class Contacts extends React.Component {
           })}
         </div>
         <div className="footer-button">
-          <input className="footer-button__input" type="button" value="New contact" onClick={function () { alert("NEW CONTACT"); }}/>
+          <input 
+            className="footer-button__input" 
+            type="button" value="New contact" 
+            onClick={function () { alert("NEW CONTACT"); }}
+          />
         </div>
       </section>
     )
